@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Nilotica
+titleTemplate: 现代化的基于 vnpy 的期货量化交易系统
+
 hero:
   name: "Nilotica"
   text: "现代化的基于 vnpy 的期货量化交易系统"
@@ -28,4 +31,4 @@ features:
     title: 适配快速
     details: 采取微服务架构，快速迁移。
 ---
-
+<Confetti />

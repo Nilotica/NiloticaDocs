@@ -3834,7 +3834,7 @@ var usePrelink = () => {
 var isExternal = (link) => /^(?:[a-z]+:|\/\/)/i.test(link);
 var initTwikoo = async (envId) => {
   try {
-    const twikoo = await import("./twikoo.all.min-T7XHECKH.js");
+    const twikoo = await import("./twikoo.all.min-DH6QMRYV.js");
     console.log("Twikoo 加载成功");
     if (typeof window !== "undefined") {
       await nextTick();

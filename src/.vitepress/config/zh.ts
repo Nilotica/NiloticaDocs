@@ -131,22 +131,6 @@ function sidebarGuide(): DefaultTheme.Sidebar {
         {
           text: '事件基础结构',
           link: '/basic_event'
-        },
-        {
-          text: '事件字段详情',
-          link: '/event'
-        },
-        {
-          text: '接口基础接口',
-          link: '/api'
-        },
-        {
-          text: '消息元素定义',
-          link: '/sement'
-        },
-        {
-          text: '差异实现说明',
-          link: '/napcat'
         }
       ]
     },
@@ -157,7 +141,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       items: [
         {
           text: '喵喵',
-          link: '/napcat.md'
+          link: '/nilotica.md'
         },
         {
           text: '安全',
