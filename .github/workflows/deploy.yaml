@@ -2,10 +2,8 @@ name: Build
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -15,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -29,9 +27,11 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run docs:build
+        run: |
+              npm run docs:build
 
       - name: deploy
         env:
           Nilotica_GH_TOKEN: ${{ secrets.Nilotica_GH_TOKEN }}
-        run: bash ./script/deploy.sh
+        run: |
+             bash ./script/deploy.sh
