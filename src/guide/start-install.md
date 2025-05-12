@@ -11,20 +11,20 @@ Nilotica 是什么东西? Nilotica 是如何运转于 VNPY 之上的?
 
 ### 安装
 <br>
-<NCard title="🚀 安装Nilotica" link="">
+<NCard title="🚀 安装Nilotica" link="../guide/install">
 Nilotica 安装方法非常的简单 就算是笨蛋也能安装~
 </NCard>
 
 ### 配置
 <br>
-<NCard title="📑 配置Nilotica" link="">
+<NCard title="📑 配置Nilotica" link="../config/basic">
 Nilotica 的配置较为复杂 阅读可以帮助你更好的配置!
 </NCard>
 
 ### 生态
 <br>
-<NCard title="🔗 对接Nilotica" link="">
-在这里,参考这些教程你可以轻松对接你常见的主流框架.
+<NCard title="🔗 Nilotica基石" link="../use/integration">
+在这里,参考这些教程你可以轻松了解Nilotica的基石框架.
 </NCard>
 
 ---
