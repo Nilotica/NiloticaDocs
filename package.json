@@ -27,5 +27,8 @@
     "docs:dev": "vitepress dev src",
     "docs:build": "vitepress build src",
     "docs:preview": "vitepress preview src"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.4"
   }
 }
