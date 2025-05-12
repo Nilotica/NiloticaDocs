@@ -1,6 +1,6 @@
 cd ..
 mkdir temp
-GITHUB_URL=https://oauth:${Nilotica_GH_TOKEN}@github.com/Nilotica/nilotica.github.io
+GITHUB_URL=https://oauth:${Nilotica_GH_TOKEN}@github.com/Nilotica/nilotica.github.io.git
 git clone ${GITHUB_URL} temp
 
 rm -rf temp/*
