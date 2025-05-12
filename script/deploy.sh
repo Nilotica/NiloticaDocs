@@ -9,7 +9,7 @@ mv ./NiloticaDocs/src/.vitepress/dist/* temp
 cd ./temp
 
 git config --global init.defaultBranch main
-git remote add origin ${GITHUB_URL}
+git remote set-url origin ${GITHUB_URL}
 git branch -M main
 
 git config --global user.name "Donny"
