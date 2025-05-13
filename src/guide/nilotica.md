@@ -83,4 +83,4 @@ Nilotica 与很多框架都有本质性的区别：
 ## Nilotica 堂堂登场
 现在你已经理解了 Nilotica,随我们一起前往目录导航查看教程,进行安装...配置...
 
-[目录导航](./start-install.md)
+[目录导航](./quick-start.md)
