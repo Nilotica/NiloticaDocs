@@ -2,7 +2,7 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
-  description: '基于VNPY的量化交易系统',
+  description: '基于 VNPY 的量化交易系统',
 
   themeConfig: {
     nav: nav(),
@@ -44,7 +44,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '快速开始',
-      link: '/guide/start-install',
+      link: '/guide/quick-start',
       activeMatch: '/guide/'
     },
     {
@@ -62,7 +62,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/guide',
       collapsed: true,
       items: [
-        { text: '目录导航', link: '/start-install' },
+        { text: '目录导航', link: '/quick-start' },
         { text: '什么是 Nilotica', link: '/nilotica' },
         { text: '启动方式', link: '/install' },
         {

@@ -140,11 +140,35 @@ run.bat
 
 按下面的顺序启动这些服务
 
-- 启动行情网关：python -m zmq_services.run_market_gateway
-- 启动订单执行网关：python -m zmq_services.run_order_gateway
-- 启动风险管理器：python -m zmq_services.run_risk_manager
-- 启动数据记录器：python -m zmq_services.run_data_recorder
-- 启动策略引擎：python -m zmq_services.run_strategy_engine
+- 启动行情网关：
+
+  ```bash
+  python -m zmq_services.run_market_gateway
+  ```
+
+- 启动订单执行网关：
+
+  ```bash
+  python -m zmq_services.run_order_gateway
+  ```
+
+- 启动风险管理器：
+
+  ```bash
+  python -m zmq_services.run_risk_manager
+  ```
+
+- 启动数据记录器：
+
+  ```bash
+  python -m zmq_services.run_data_recorder
+  ```
+
+- 启动策略引擎：
+
+  ```bash
+  python -m zmq_services.run_strategy_engine
+  ```
 
 成功启动这几个核心服务后代表整个量化系统就已经跑起来了，行情网关和订单执行网关是其它服务的基础依赖服务所以要优先启动。
 
