@@ -7,7 +7,7 @@ export const Footer_Data: FooterData = {
             title: '生态',
             icon: 'fa-solid fa-lightbulb',
             links: [
-                { name: '官方框架', link: 'https://github.com/Lumosylva/Nilotica' }
+                { name: '官方框架', link: 'https://github.com/Lumosylva/Nilotica' },
             ]
         },
         {

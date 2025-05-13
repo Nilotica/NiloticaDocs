@@ -1,8 +1,7 @@
 {
   "name": "nilotica.docs",
   "version": "1.0.0",
-  "author": "Nilotica",
-  "description": "Nilotica Documentation",
+  "author": "Lumosylva",
   "type": "module",
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.12.0",
