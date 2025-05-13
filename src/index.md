@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始安装
-      link: /guide/start-install
+      link: /guide/quick-start
     - theme: alt
       text: GitHub
       link: https://github.com/Lumosylva/Nilotica
