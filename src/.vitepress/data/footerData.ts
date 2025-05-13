@@ -1,14 +1,13 @@
 import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
-    author: { name: 'NapNeko', link: 'https://github.com/NapNeko' },
+    author: { name: 'NapNeko', link: 'https://github.com/Lumosylva' },
     group: [
         {
             title: '生态',
             icon: 'fa-solid fa-lightbulb',
             links: [
-                { name: '官方对接框架', href: 'https://node-napcat-ts.huankong.top' },
-                { name: '二次开发框架', href: 'https://napneko.github.io/develop/plugin' },
+                { name: '官方框架', href: 'https://github.com/Lumosylva/Nilotica' }
             ]
         },
         {
@@ -23,11 +22,7 @@ export const Footer_Data: FooterData = {
             title: '社区',
             icon: 'fa-solid fa-expand',
             links: [
-                { name: '官方 企鹅 4号社区', href: 'https://qm.qq.com/q/CMmPbGw0jA' },
-                { name: '官方 企鹅 3号社区', href: 'https://qm.qq.com/q/8zJMLjqy2Y' },
-                { name: '官方 企鹅 2号社区', href: 'https://qm.qq.com/q/HaRcfrHpUk' },
-                { name: '官方 企鹅 1号社区', href: 'https://qm.qq.com/q/I6LU87a0Yq' },
-                { name: '官方 Telegram 社区', href: 'https://t.me/MelodicMoonlight' },
+                { name: '官方 企鹅 1号社区', href: 'https://qun.qq.com/universal-share/share?ac=1&authKey=dzGDk/%2Bpy/wpVyR%2BTrt9%2B5cxLZrEHL793cZlFWvOXuV5I8szMnOU4Wf3ylap7Ph0&busi_data=eyJncm91cENvZGUiOiI0NDYwNDI3NzciLCJ0b2tlbiI6IlFrM0ZhZmRLd0xIaFdsZE9FWjlPcHFwSWxBRFFLY2xZbFhaTUh4K2RldisvcXlBckZ4NVIrQzVTdDNKUFpCNi8iLCJ1aW4iOiI4MjEzMDAwNzkifQ==&data=O1Bf7_yhnvrrLsJxc3g5-p-ga6TWx6EExnG0S1kDNJTyK4sV_Nd9m4p-bkG4rhj_5TdtS5lMjVZRBv4amHyvEA&svctype=4&tempid=h5_group_info' },
             ]
         }
     ]
