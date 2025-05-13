@@ -1,6 +1,6 @@
 # Nilotica
 
-本项目是 **[Nilotica](https://github.com/Lumosylva/Nilotica)** 的文档项目, 用于文档的更新, 部署等.
+本项目是 **[Nilotica](https://github.com/Lumosylva/Nilotica)** 的文档项目, 用于文档的更新, 部署等。
 # Logo 历史
 1. Lumosylva
 # Contribution
