@@ -80,7 +80,7 @@
 
    :::
 
-   在编译之前请确保已经安装了Visual Studio（Windows）、GCC（Linux），这因为原始CTP API 是 C++ 开发的，需要编译为 Python 接口则需要 C++ 编译器。若需要编译其他版本 CTP API 则需要下载原始相应版本 CTP API 文件对项目中相关的文件进行替换再执行编译。
+   在编译之前请确保已经安装了Visual Studio（Windows）、GCC（Linux），这是因为原始CTP API 是 C++ 开发的，在项目中需要编译为 Python 接口需要用到 C++ 编译器。若需要编译其他版本 CTP API 则需要下载原始相应版本 CTP API 文件对项目中相关的文件进行替换再执行编译。
 
    - **清理旧的构建**
 
@@ -124,10 +124,10 @@ Nilotica 有着众多启动方式，每种方式各有优点：
 - **一键启动版本**：直接运行 run.bat，暂未提供 Linux 一键启动脚本。
 - **各服务独立启动版本**：方便调试、启动灵活的特点。
 
-> 悄悄话: 我还是推荐你用Shell的 毕竟~~~
+> 悄悄话: 我还是推荐你用Command的 毕竟~~~
 ### 一键启动方式
 ```powershell
-build.bat
+run.bat
 ```
 
 ### 各服务独立启动方式
