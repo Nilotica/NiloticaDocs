@@ -1,7 +1,7 @@
 # Nilotica
 
 ## 初略安装流程
-1. 进入[Releases](https://github.com/Lumosylva/Nilotica/releases)界面下载**对应版本**的 .whl 或 .tar.gz文件，.whl 是 Python 支持的安装文件，可以用 pip + whl 文件完整路径安装，或解压缩 .tar.gz 文件，.tar.gz 是源代码文件，可以通过解压得到所有项目源代码。
+1. 进入 [Releases](https://github.com/Lumosylva/Nilotica/releases) 界面下载**对应版本**的 .whl 或 .tar.gz文件，.whl 是 Python 支持的安装文件，可以用 pip + whl 文件完整路径安装，或解压缩 .tar.gz 文件，.tar.gz 是源代码文件，可以通过解压得到所有项目源代码。
 
 2. 安装 uv，uv 是本项目使用的 Python 虚拟环境及软件包管理工具，可以代替 conda，并且下载软件包速度是其它工具的几倍甚至十几倍。
 
@@ -29,7 +29,7 @@
    uv pip install nilotica-0.1.2-cp312-cp312-win_amd64.whl
    ```
 
-   或解压缩 nilotica-0.1.0.tar.gz
+   或解压缩 nilotica-0.1.2.tar.gz
 
 5. Python虚拟环境的创建和依赖包的下载。
 
@@ -121,13 +121,19 @@
 
 Nilotica 有着众多启动方式，每种方式各有优点：
 
-- **一键启动版本**：直接运行 run.bat，暂未提供 Linux 一键启动脚本。
+- **一键启动版本**：直接运行 run.bat 或 run.sh。
 - **各服务独立启动版本**：方便调试、启动灵活的特点。
 
-> 悄悄话: 我还是推荐你用Command的 毕竟~~~
+> 悄悄话: 我还是推荐你用 Command 的，毕竟~~~
 ### 一键启动方式
 ```powershell
 run.bat
+```
+
+或者
+
+```bash
+run.sh
 ```
 
 ### 各服务独立启动方式
