@@ -1,13 +1,12 @@
 # NiloticaDocs
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Nilotica/NiloticaDocs/deploy.yaml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Nilotica/NiloticaDocs/deploy.yaml)&ensp;![GitHub License](https://img.shields.io/github/license/Nilotica/NiloticaDocs)
+
 
 本项目是 **[Nilotica](https://github.com/Lumosylva/Nilotica)** 的文档项目，用于文档的更新，部署等。
 
-文档浏览：https://nilotica.github.io/
+文档浏览：[nilotica.github.io](https://nilotica.github.io/)
 
-# Logo 历史
-1. Lumosylva
 # Contribution
 
 如果只需要进行简单的修改可以直接修改对应文档的 markdown 源码, 如果修改较为复杂请参考以下步骤.
