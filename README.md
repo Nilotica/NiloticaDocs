@@ -1,5 +1,7 @@
 # NiloticaDocs
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Nilotica/NiloticaDocs/deploy.yaml)
+
 本项目是 **[Nilotica](https://github.com/Lumosylva/Nilotica)** 的文档项目，用于文档的更新，部署等。
 
 文档浏览：https://nilotica.github.io/
